@@ -1,0 +1,98 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.order {
+   font-family: "Red Hat Display", sans-serif;
+   font-size: 16px;
+   background-color: #d6e2f0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.order__container {
+   background-color: white;
+   width: 400px;
+   border-radius: 20px;
+   overflow: hidden;
+}
+.order__content {
+   padding: 30px 40px;
+}
+.order__content > p {
+   text-align: center;
+   opacity: 50%;
+}
+
+.order__content > h3 {
+   text-align: center;
+   margin-bottom: 20px;
+
+   font-size: 24px !important;
+}
+
+.order__plan {
+   background-color: hsl(225, 100%, 98%);
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px;
+   margin-block: 30px;
+}
+
+.order__plan-details {
+   display: flex;
+   align-items: center;
+}
+
+.order__plan-change-btn {
+   border: none;
+   background: none;
+   text-decoration: underline;
+   cursor: pointer;
+   color: blueviolet;
+   font-weight: bold;
+   font-family: "Red Hat Display", sans-serif;
+}
+
+.order__plan-details-text {
+   margin-left: 20px;
+}
+
+.order__plan-details-text > p {
+   opacity: 50%;
+   font-weight: 300;
+   font-size: 14px !important;
+   margin-top: 4px;
+}
+
+.order__plan-button {
+   display: flex;
+   flex-direction: column;
+}
+
+.btn {
+   border: none;
+   background: none;
+   cursor: pointer;
+   padding-block: 15px;
+   font-weight: bold;
+   font-family: "Red Hat Display", sans-serif;
+}
+
+.order__plan-button-submit {
+   background-color: hsl(245, 75%, 52%);
+   border-radius: 10px;
+   color: white;
+   box-shadow: 1px 1px 10px 2px #888888;
+}
+
+.order__plan-button-cancel {
+   opacity: 75%;
+   margin-top: 10px;
+}
